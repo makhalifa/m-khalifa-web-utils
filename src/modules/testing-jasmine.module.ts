@@ -17,7 +17,7 @@ const createJasmineConfiguration = async (): Promise<void> => {
   // install needed Dependencies
   await execSync('npm install supertest@^6.1.6 jasmine-spec-reporter@^7.0.0 jasmine@^3.10.0')
   await execSync('npm install --save-dev @types/jasmine@3.10.2 @types/supertest@^2.0.11')
-  await execSync('npm set-script test "npx tsc && jasmine"')
+  await execSync('npm pkg set scripts.test="npx tsc && jasmine"')
   // created needed directory
   const configFolderPath = path.join(constants.appRoot, 'config')
 

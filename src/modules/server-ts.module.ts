@@ -30,10 +30,10 @@ const createIndexFile = async (): Promise<void> => {
   await execSync(
     'npm install --save-dev @types/express@^4.17.13 @types/morgan@^1.9.3 @types/node@^16.11.12 nodemon@^2.0.15 rimraf@^3.0.2 ts-node@^10.4.0 typescript@^4.5.2'
   )
-  await execSync('npm set-script dev "nodemon ./src/index.ts"')
-  await execSync('npm set-script clean "rimraf build/"')
-  await execSync('npm set-script build "yarn clean && npx tsc"')
-  await execSync('npm set-script start "npm run build && nodemon build/index.js"')
+  await execSync('npm pkg set scripts.dev="nodemon ./src/index.ts"')
+  await execSync('npm pkg set scripts.clean="rimraf build/"')
+  await execSync('npm pkg set scripts.build="yarn clean && npx tsc"')
+  await execSync('npm pkg set scripts.start="npm run build && nodemon build/index.js"')
 
   console.group(`I am finished Sir, and Here's what I did:- `)
   console.log('✅ starter files successfully created, feel free to play with it')

@@ -1,5 +1,5 @@
 {
-  "name": "m-zanaty-web-utils",
+  "name": "m-khalifa-web-utils",
   "version": "0.0.19",
   "description": "Quickly create an opinionated configuration for different projects [React, Node] with.{out} typescript",
   "main": "build/index.js",
@@ -18,13 +18,13 @@
     "publish": "npm publish"
   },
   "keywords": [
-    "mohammed elzanaty start config",
+    "mohammed khalifa start config",
     "react",
     "nodejs",
     "typescript",
     "ts"
   ],
-  "author": "Mohammed Elzanaty",
+  "author": "Mohammed Khalifa ",
   "license": "MIT",
   "dependencies": {
     "chalk": "^4.1.2",
@@ -33,12 +33,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/mohammedelzanaty/m-zanaty-web-utils"
+    "url": "git+https://github.com/makhalifa/m-khalifa-web-utils"
   },
   "bugs": {
-    "url": "https://github.com/mohammedelzanaty/m-zanaty-web-utils/issues"
+    "url": "https://github.com/makhalifa/m-khalifa-web-utils/issues"
   },
-  "homepage": "https://github.com/mohammedelzanaty/m-zanaty-web-utils#readme",
+  "homepage": "https://github.com/makhalifa/m-khalifa-web-utils#readme",
   "devDependencies": {
     "@types/fs-extra": "^9.0.13",
     "@types/inquirer": "^8.1.3",

@@ -15,7 +15,7 @@ const run = async () => {
 
   console.log(
     `- Hey Sir, ${blue(bold(`${constants.username}`))}... here's ${green(
-      'Younes'
+      'Hazla2oom'
     )} How can I serve you? 👨🏻‍💻`
   )
   console.log(bgRedBright(white('Please, make sure u use npm version > v6.x')))
@@ -27,7 +27,7 @@ const run = async () => {
   //     )} and ${green.italic('never use me again ?!!')}`
   //   )} 🤔🤨 `
   // )
-  // console.log(`- .... ${red('😡😡😡😡')}, no Younes`)
+  // console.log(`- .... ${red('😡😡😡😡')}, no Hazla2oom`)
   // console.log(`- no problem Sir, tell me how can I help you`)
   try {
     const {

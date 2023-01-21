@@ -30,7 +30,7 @@ const createEslintConfiguration = async (framework: string) => {
     await fse.writeFile(eslintjs, eslintConfigBuffer.toString())
   }
   await fse.writeFile(eslintignore, 'node_modules\nbuild')
-  await execSync('npm set-script lint "eslint . --ext .ts"')
+  await execSync('npm pkg set scripts.lint="eslint . --ext .ts"')
 
   console.log(
     blue(

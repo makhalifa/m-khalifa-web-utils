@@ -11,9 +11,9 @@ most of the time u stuck on creating the node project using typescript with this
 to use the tool open follow the next steps and follow the instruction
 
 ```shell
-npm i -g m-zanaty-web-utils
+npm i -g m-khalifa-web-utils
 mkdir PROJECT_NAME
-m-zanaty-web-utils
+m-khalifa-web-utils
 ```
 
 u will get multiple questions if you need to intall combo including all the stuff mention above or u only need prettier/eslint

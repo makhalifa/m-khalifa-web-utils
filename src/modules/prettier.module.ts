@@ -34,7 +34,7 @@ const createPrettierFile = async (): Promise<void> => {
   await fse.writeFile(prettierignore, 'build')
 
   await execSync('npm install --save-dev prettier@^2.5.1')
-  await execSync('npm set-script format "prettier --write \'src/**/*.{ts,tsx,js,jsx}\'"')
+  await execSync('npm pkg set scripts.format="prettier --write \'src/**/*.{ts,tsx,js,jsx}\'"')
 
   console.group(`I am finished Sir, and Here's Prettier Report`)
   console.log(
