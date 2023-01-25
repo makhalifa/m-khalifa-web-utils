@@ -2,10 +2,7 @@
   "name": "m-khalifa-web-utils",
   "version": "0.0.19",
   "description": "Quickly create an opinionated configuration for different projects [React, Node] with.{out} typescript",
-  "main": "build/index.js",
-  "bin": {
-    "m-khalifa-web-utils": "build/index.js"
-  },
+  "main": "build/index.j  ",
   "types": "build/index.d.ts",
   "scripts": {
     "start": "nodemon --watch './**/*.ts' --exec 'ts-node' ./src/index.ts",
@@ -26,7 +23,7 @@
     "typescript",
     "ts"
   ],
-  "author": "Mohammed Khalifa",
+  "author": "Mohammed Khalifa ",
   "license": "MIT",
   "dependencies": {
     "chalk": "^4.1.2",
@@ -35,7 +32,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/makhalifa/m-khalifa-web-utils.git"
+    "url": "git+https://github.com/makhalifa/m-khalifa-web-utils"
   },
   "bugs": {
     "url": "https://github.com/makhalifa/m-khalifa-web-utils/issues"
